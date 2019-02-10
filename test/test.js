@@ -168,7 +168,7 @@ var vuxMapper = function (opts) {
   return str
 }
 
-describe('vux-loader', function () {
+describe('vux-loader-stzhang', function () {
 
   describe('get i18n block', function () {
 

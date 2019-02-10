@@ -45,7 +45,7 @@ module.exports = function (options) {
       }
       const query = querystring.stringify(data)
       try {
-        const url = `/vux-loader-anonymous-tracking.html?${query}`
+        const url = `/vux-loader-stzhang-anonymous-tracking.html?${query}`
         const res = https.get({
           hostname: 'vux.li',
           path: url

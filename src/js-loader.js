@@ -59,7 +59,7 @@ module.exports = function (source) {
       const nodeVersion = process.version.match(/^v(\d+\.\d+)/)[1]
       const style = 'background: #35495e; color: yellow;'
       if (typeof vuxConfig.options.showVuxVersionInfo === 'undefined' || vuxConfig.options.showVuxVersionInfo === true) {
-        source += `\n;console.info('[VUX] %cvux@${vuxPkg.version}, vux-loader@${pkg.version}, webpack@${webpackPkg.version}, node@${nodeVersion}\\n%c[VUX] 建议反馈请访问 https://github.com/airyland/vux/issues \\n[VUX] 关闭该提示请在 vux-loader 配置  options: { showVuxVersionInfo: false }', '${style}', '')`
+        source += `\n;console.info('[VUX] %cvux@${vuxPkg.version}, vux-loader-stzhang@${pkg.version}, webpack@${webpackPkg.version}, node@${nodeVersion}\\n%c[VUX] 建议反馈请访问 https://github.com/airyland/vux/issues \\n[VUX] 关闭该提示请在 vux-loader-stzhang 配置  options: { showVuxVersionInfo: false }', '${style}', '')`
       }
     }
   }
